@@ -1,0 +1,25 @@
+[submodule "arm-trusted-firmware"]
+	path = arm-trusted-firmware
+	url = https://github.com/ARM-software/arm-trusted-firmware
+	branch = integration
+[submodule "optee_os"]
+	path = optee_os
+	url = https://github.com/OP-TEE/optee_os
+[submodule "edk2"]
+	path = edk2
+	url = https://github.com/96boards-hikey/edk2
+	branch = testing/hikey960_v2.5
+[submodule "OpenPlatformPkg"]
+	path = OpenPlatformPkg
+	url = https://github.com/96boards-hikey/OpenPlatformPkg
+	branch = testing/hikey960_v1.3.4
+[submodule "l-loader"]
+	path = l-loader
+	url = https://github.com/96boards-hikey/l-loader
+	branch = testing/hikey960_v1.2
+[submodule "uefi-tools"]
+	path = uefi-tools
+	url = https://git.linaro.org/uefi/uefi-tools
+[submodule "tools-images-hikey960"]
+	path = tools-images-hikey960
+	url = https://github.com/96boards-hikey/tools-images-hikey960.git
